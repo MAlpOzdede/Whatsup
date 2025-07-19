@@ -430,10 +430,9 @@ function App() {
                   </button>
                 )}
               </form>
-            </div>
+            </motion.div>
           </>
         ) : (
-          /* Welcome Screen */
           <div className="flex-1 bg-gray-50 flex items-center justify-center">
             <motion.div 
               initial={{ scale: 0.8, opacity: 0 }}
